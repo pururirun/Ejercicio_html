@@ -1,0 +1,58 @@
+img{
+  display: block;
+  margin: auto;
+  width: 500px;
+}
+
+body{
+  margin: 0;
+}
+h1,h2,h3{
+  color:black;
+}
+
+*{
+  color:green;
+  font-family: monospace;
+  font-style: italic;
+}
+
+a{
+  color: blue;
+  text-decoration: none;
+}
+
+.green{
+  background-color: #a5f747;
+}
+
+ol li{
+  color:blue;
+}
+
+li:first-of-type + li{
+  color:green;
+}
+
+.caja{
+  text-align: center;
+  background-color: #c9fc3c;
+  padding: 1em;
+  border: 1em ridge #f8ff3d;
+}
+.cajita{
+  text-align: center;
+  background-color: #fcd63c;
+  padding: 1em;
+  margin-top: 1em;
+  border: 1em dotted red;
+  /*visibility: hidden; Escondido*/
+}
+
+.cajita3{
+  text-align: center;
+  background-color: #fcd63c;
+  padding: 1em;
+  margin-top: 1em;
+  border: 1em dotted red;
+}
